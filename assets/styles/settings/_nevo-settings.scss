@@ -1,0 +1,7 @@
+@use 'nevo/settings' with (
+  $theme: (
+    'family': (
+      'sans': ('I', 'Helvetica Neue', 'Arial', sans-serif)
+    )
+  )
+);

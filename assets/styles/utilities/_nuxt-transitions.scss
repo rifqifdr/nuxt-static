@@ -1,0 +1,17 @@
+@use 'nevo/settings';
+
+// Nuxt transitions
+// @link https://nuxtjs.org/docs/2.x/features/transitions/
+
+.layout-enter-active,
+.layout-leave-active,
+.page-enter-active,
+.page-leave-active {
+  transition: opacity 300ms settings.theme('ease', 'in');
+}
+.layout-enter,
+.layout-leave-active,
+.page-enter,
+.page-leave-active {
+  opacity: 0;
+}

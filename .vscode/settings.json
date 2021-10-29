@@ -1,0 +1,30 @@
+{
+  "editor.formatOnSave": true,
+  "javascript.validate.enable": false,
+  "javascript.format.enable": false,
+  "files.associations": {
+    "*.pcss": "css"
+  },
+
+  "eslint.alwaysShowStatus": true,
+  "eslint.options": {
+    "extensions": [".html", ".js", ".ts", ".vue"]
+  },
+
+  "vetur.validation.template": false,
+  "vetur.format.defaultFormatter.html": "none",
+  "vetur.format.defaultFormatter.css": "none",
+  "vetur.format.defaultFormatter.scss": "none",
+  "vetur.format.defaultFormatter.js": "none",
+  "vetur.format.defaultFormatter.ts": "none",
+
+  "stylelint.enable": true,
+  "css.validate": false,
+  "scss.validate": false,
+
+  "html.format.enable": false,
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.includeLanguages": {
+    "vue-html": "html"
+  }
+}

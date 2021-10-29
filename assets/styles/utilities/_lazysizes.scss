@@ -1,0 +1,13 @@
+@use 'nevo/settings';
+
+// Lazysizes CSS API
+// @link https://github.com/aFarkas/lazysizes#css-api
+
+.lazyload,
+.lazyloading {
+  opacity: 0;
+}
+.lazyloaded {
+  opacity: 1;
+  transition: opacity 300ms settings.theme('ease', 'in');
+}
